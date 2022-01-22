@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  body {
+    background: linear-gradient(#000000b4, #0000008c, #00000027),
+      url(../assets/pexels-lisa-fotios-1655329.jpg);
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  .container {
+    background-color: rgba(0, 0, 0, 0.576);
+    border-radius: 5px;
+    margin: 10px;
+    height: 95vh;
+    padding: 20px;
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+
+  header {
+    color: #ffff;
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .formUser {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  label {
+    color: #fff;
+    font-size: 2.4rem;
+    font-weight: bold;
+    border-radius: 8px;
+  }
+
+  input {
+    width: 100%;
+    padding: 0.8rem;
+    margin-top: 8px;
+    margin-bottom: 15px;
+  }
+
+  .buttons {
+    display: flex;
+    gap: 10px;
+  }
+
+  .buttonOpc {
+    height: 4.5rem;
+    border-radius: 6px;
+    color: #ffff;
+    font-weight: bolder;
+    border: none;
+  }
+
+  .buttonOpc:active {
+    transform: translate(0px, 5px);
+    -webkit-transform: translate(0px, 5px);
+    box-shadow: 0px 1px 0px 0px;
+  }
+
+  .one {
+    background-color: #2ecc71;
+    box-shadow: 0px 5px 0px 0px #15b358;
+  }
+
+  .two {
+    background-color: #55acee;
+    box-shadow: 0px 5px 0px 0px #3c93d5;
+  }
+
+  .three {
+    background-color: #e74c3c;
+    box-shadow: 0px 5px 0px 0px #ce3323;
+  }
+}
